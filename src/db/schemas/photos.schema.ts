@@ -15,4 +15,4 @@ export class Photo {
   photoLink: string;
 }
 
-export const CatSchema = SchemaFactory.createForClass(Photo);
+export const PhotosSchema = SchemaFactory.createForClass(Photo);
